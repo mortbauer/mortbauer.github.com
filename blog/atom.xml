@@ -7,32 +7,35 @@
         <link href="/"/>
     
         
-    <updated>2012-02-01T09:05:16Z</updated>
+    <updated>2012-02-01T09:41:42Z</updated>
 
     <id>/blog/atom.xml/</id>
 
             <entry>
-            <title type="html"></title>
+            <title type="html">Restaurants at TUT</title>
             <author><name>Martin Ortbauer</name></author>
             <link href="/blog/cafeteria.html"/>
-            <updated>2012-01-29T08:51:33Z</updated>
-            <published>2012-01-29T08:51:33Z</published>
+            <updated>2012-01-29T21:25:24Z</updated>
+            <published>2012-01-29T21:25:24Z</published>
             <id>/blog/cafeteria.html</id>
+                        <category   scheme="/blog/tags"
+                        term="food"
+                        label="Food" />
+                        <category   scheme="/blog/tags"
+                        term="TUT"
+                        label="Tut" />
+                        <category   scheme="/blog/tags"
+                        term="Finland"
+                        label="Finland" />
+                        <category   scheme="/blog/tags"
+                        term="Tampere"
+                        label="Tampere" />
+                        <category   scheme="/blog/tags"
+                        term="restaurant"
+                        label="Restaurant" />
             
             <content type="html">
-                                &lt;hr /&gt;
-&lt;p&gt;title: Restaurants at &lt;span class=&#34;caps&#34;&gt;TUT&lt;/span&gt;
-description: &amp;gt;
-    About the good restaurants at the University.
-created: !!timestamp &amp;#8216;2012-01-29 21:25:24&amp;#8217;
-tags:
-    - food
-    - &lt;span class=&#34;caps&#34;&gt;TUT&lt;/span&gt;
-    - Finland
-    - Tampere
-    -&amp;nbsp;restaurant&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;I hope you agree with me that eating, and therefore food and places
+                                &lt;p&gt;I hope you agree with me that eating, and therefore food and places
 where to eat are very important, but actually also the opportunities
 for good and affordable food differ a lot from country to country,
 from city to city and even from university to university. Obviously it
