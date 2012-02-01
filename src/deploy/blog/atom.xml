@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>
+        A simple personal blog feed.    </title>
+        <link href="blog/atom.xml" rel="self" />
+    
+        <link href="/"/>
+    
+        
+    <updated>2012-02-01T08:16:56Z</updated>
+
+    <id>/blog/atom.xml/</id>
+
+            <entry>
+            <title type="html"></title>
+            <author><name>Martin Ortbauer</name></author>
+            <link href="/blog/cafeteria.html"/>
+            <updated>2012-01-29T08:51:33Z</updated>
+            <published>2012-01-29T08:51:33Z</published>
+            <id>/blog/cafeteria.html</id>
+            
+            <content type="html">
+                                &lt;hr /&gt;
+&lt;p&gt;title: Restaurants at &lt;span class=&#34;caps&#34;&gt;TUT&lt;/span&gt;
+description: &amp;gt;
+    About the good restaurants at the University.
+created: !!timestamp &amp;#8216;2012-01-29 21:25:24&amp;#8217;
+tags:
+    - food
+    - &lt;span class=&#34;caps&#34;&gt;TUT&lt;/span&gt;
+    - Finland
+    - Tampere
+    -&amp;nbsp;restaurant&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I hope you agree with me that eating, and therefore food and places
+where to eat are very important, but actually also the opportunities
+for good and affordable food differ a lot from country to country,
+from city to city and even from university to university. Obviously it
+isn&amp;#8217;t very objective to judge about good, or delicious food as it
+depends on one&amp;#8217;s flavour. You it isn&amp;#8217;t a very easy subject, but an
+important one, and as I also really like to eat, I will start my first
+blog about the food at the university, I hope a lot more will&amp;nbsp;follow.&lt;/p&gt;
+&lt;h2&gt;Ravintola&amp;nbsp;Newton&lt;/h2&gt;
+&lt;p&gt;Which means, restaurant &lt;strong&gt;Newton&lt;/strong&gt;, was the first restaurant I
+became to know, because it was also the only one opened in the first&amp;nbsp;week.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6857-kl.png&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Ravintola&amp;nbsp;Zip&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Food&#34; src=&#34;/media/images/food.png&#34; /&gt;
+&lt;a href=&#34;http://www.juvenes.fi/&#34;&gt;Juvenes&lt;/a&gt;&lt;/p&gt;            </content>
+        </entry>
+    </feed>

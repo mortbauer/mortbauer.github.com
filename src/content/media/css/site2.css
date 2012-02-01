@@ -1,0 +1,91 @@
+h1, h2, h3, h4, h5, h6 {
+  color: @pcolor;
+  font-family: @newscycle;
+  display: block;
+  height: auto;
+  text-shadow: @tcolor 1px 1px 2px;
+}
+h1, h2 {
+  font-size: @textheight * 3;
+  line-height: @textheight * 3 + 12;
+  padding: 5px;
+  border-bottom: 1px dashed @tcolor;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: @textheight * 2;
+  line-height: @textheight * 2 + 8;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+body.index {
+  article {
+    .grid_10;
+    position: relative;
+    max-height: 35px;
+    &:first-child {
+      margin-top: 30px;
+    }
+    h1 {
+      font-size: @textheight * 1.2;
+      line-height: @textheight * 1.75;
+      /*border-bottom: none;*/
+      /*.grid_6;*/
+      /*padding: 0;*/
+      /*display: inline-block;*/
+      /*margin-left: @columnWidth;*/
+      /*margin-bottom: @textheight;*/
+      /*position: relative;*/
+      /*z-index: 10;*/
+      text-overflow: ellipsis-word;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    time {
+      font-size: @textheight - 4;
+      .grid_2;
+      line-height: @textheight - 2;
+      height: @textheight - 2 !important;
+      float: right;
+      text-align: right;
+      padding: 2px 0 2px 0;
+      margin-right: @columnWidth - 4;
+    }
+    .tags {
+      font-size: @textheight - 6 !important;
+      .grid_9;
+      text-align: right;
+      padding: 0;
+      opacity: 0;
+      height: @textheight - 1;
+      position: absolute;
+      z-index: 9;
+      top: @textheight;
+      li {
+        display: inline-block;
+        a {
+          padding: 0;
+          height: @textheight;
+          line-height: @textheight;
+          .quo {
+            line-height: @textheight;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: @textheight !important;
+          }
+        }
+      }
+    }
+    &:hover .tags {
+      opacity: 1;
+      -webkit-transition-duration: 0.75s;
+      -moz-transition-duration: 0.75s;
+      -o-transition-duration: 0.75s;
+      transition-duration: 0.75s;
+    }
+    .horz {
+      .grid_10;
+    }
+  }
+}
