@@ -12,7 +12,6 @@ tags:
 ---
 
 {% mark excerpt %}
-
 I hope you agree with me that eating, and therefore food and places
 where to eat are very important, but actually also the opportunities
 for good and affordable food differ a lot from country to country,
@@ -21,22 +20,25 @@ isn't very objective to judge about good, or delicious food as it
 depends on one's flavour. You it isn't a very easy subject, but an
 important one, and as I also really like to eat, I will start my first
 blog about the food at the university, I hope a lot more will follow.
-
 {% endmark %}
 
-## Ravintola Newton
+{% for i in listdir("content/media/images/food/") %}
+![Food]( {{ i }} )  
+{% endfor %}
 
-Which means, restaurant **Newton**, was the first restaurant I
-became to know, because it was also the only one opened in the first week.
+Actually there is not only one good place to eat the Tampere University of
+Technology TUT, no there are at least three, no four which should be mentioned.
+This are Ravintola Newton, Ravintola is the Finnish word for Restaurant, then
+there is Ravintola Zip and Ravintola Edison. This restaurants serve, of course
+depending on ones taste, very delicious food, from about 10.30 to 15.00 every
+weekday, and on Saturday one can still go to Ravintola Edison as it is the only
+one opened also on Saturdays.  
 
-![Food]([[!!images/DSCF6857-kl.png]])
-
-## Ravintola Zip
 
 {% mark image -%}
-![Food]([[!!images/food.png]])
-{%- endmark %}
+![Food]([[!!images/food.png]])  
+{%- endmark %}  
 
-[Juvenes][JUV]
+If you want more detailed information about prices, opening hours or dishes you should visit they website of [Juvenes][JUV], the owner of the restaurants.
 [JUV]: http://www.juvenes.fi/
 

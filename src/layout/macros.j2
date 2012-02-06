@@ -1,14 +1,34 @@
 {% macro render_excerpt(res, class=None) %}
 {% refer to res.url as post %}
 <article {{'class='~class if class }}>
-<h1><a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a></h1>
-<a href="{{ content_url(res.url) }}">{{ post.image|markdown|typogrify }}</a>
-{{ post.excerpt|markdown|typogrify }}
-<time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">
-    Posted: {{ res.meta.created.strftime('%a, %d %b %Y') }}
-</time>
+    <a href="{{ content_url(res.url) }}">{{ post.image|markdown|typogrify }}</a>
+    <h5><a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a></h5>
+    <p>
+    {{ res.meta.description }}
+    <time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">
+      {{ res.meta.created.strftime('%d %b %Y') }}
+    </time>
+    </p>
+    {{ post.excerpt|markdown|typogrify }}
 </article>
 {% endmacro %}
+
+
+{% macro render_excerpt2(res, class=None) %}
+{% refer to res.url as post %}
+<article {{'class='~class if class }}>
+    <small>
+    <a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a>
+    &nbsp;//&nbsp;
+    <time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">
+        Posted on {{ res.meta.created.strftime('%a, %d %b %Y') }}
+    </time>
+    </small>
+    <a href="{{ content_url(res.url) }}">{{ post.image|markdown|typogrify }}</a>
+    <ul class="excerpt text">{{ post.excerpt|markdown|typogrify }}</ul>
+</article>
+{% endmacro %}
+
 
 {% macro render_nav(menu, cls=None) -%}
 {% if menu -%}
@@ -23,15 +43,14 @@
             {% set active = (node ==
                 site.content.node_from_relative_path(item.url)) -%}
         {%- endif %}
-        {% set classes = ['button', 'white'] -%}
+        {% set classes = [] -%}
         {% do classes.append('active') if active -%}
         {% do classes.append(item.css_class) if item.css_class -%}
         <li>
             <a title="{{ item.description }}"
                 class="{{ classes|join(' ') }}"
                 href="{{ content_url(item.url) }}">
-                {{ item.name }}
-            </a>
+                {{ item.name }}</a>
         </li>
         {%- endfor %}
     </ul>

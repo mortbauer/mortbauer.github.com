@@ -10,11 +10,14 @@ plugins:
     - hyde.ext.plugins.tagger.TaggerPlugin
     - hyde.ext.plugins.syntext.SyntextPlugin
     - hyde.ext.plugins.textlinks.TextlinksPlugin
+    - hyde.ext.plugins.folders.FlattenerPlugin
+    - extensions.miscellaneous.Miscellaneous
 context:
     data:
         website_title: mortbauer
         website_subtitle: a simple personal blog.
         tweet_via: ringce
+        images: '/media/images'
         menu:
             -
                 name: Home
@@ -61,3 +64,9 @@ publisher:
         type: hyde.ext.publishers.dvcs.Git
         path: ../
         url: git@github.com:mortbauer/mortbauer.github.com.git
+
+flattener:
+    items:
+        -
+            source: media/images
+            target: 'media/images'

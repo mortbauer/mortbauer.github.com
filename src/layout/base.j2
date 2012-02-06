@@ -31,6 +31,8 @@
   <meta name="viewport" content="{{ resource.meta.viewport }}">
 
   {% block favicons %}
+  <!-- Place favicon.ico & apple-touch-icon.png
+        in the root of your domain and delete these references -->
   <link rel="shortcut icon" href="{{ media_url('icons/favicon.ico') }}">
   <link rel="apple-touch-icon" href="{{ media_url('icons/apple-touch-icon.png') }}">
   {% endblock favicons %}
@@ -43,36 +45,42 @@
   {% block headjs %}
   <!-- All JavaScript at the bottom, except for Modernizr which
         enables HTML5 elements & feature detects -->
-    <script src="{{ media_url('js/libs/modernizr-1.7.min.js') }}"></script>
+   <script src="{{ media_url('js/libs/modernizr-1.7.min.js') }}"></script>
   {% endblock headjs %}
   {% block endhead %}{% endblock endhead %}
 </head>
 <body id="{{ resource.meta.id if resource.meta.id else resource.slug }}">
   {% block content %}
-    <div id="container">
       {% block container %}
-        <div id="main" role="main">
-          <header class="banner clearfix">
-            {% block header -%}
-            <h1>{{ website_title }}</h1>
-            <h3>{{ website_subtitle }}</h3>
-            {%- endblock %}
-            {% block nav %}
-                {% from "macros.j2" import render_nav with context %}
-                {{ render_nav(menu, 'main_nav') }}
-            {% endblock %}
+          <div id="main" role="main">
+
+          <header class="clearfix">
           </header>
+
           <section class="content">
-            {% block main %}
-            {% endblock main %}
+          {% block main %}
+          {% endblock main %}
+          <footer>
+          this website is proudly powered by <a href="http://www.python.org/">Python</a>,
+          build with the static site generator <a href="http://hyde.github.com/">Hyde</a>, 
+          pages and source code hosted on <a href="https://github.com/fspaolo/">GitHub</a>,
+          and written using <a href="http://www.vim.org/">VIM</a>.
+          </footer>
           </section>
-        </div>
+
+          <div id="sidebar">
+          {% block nav %}
+          {% from "macros.j2" import render_nav with context %}
+          {{ render_nav(menu, 'nav') }}
+          {% endblock %}
+          {% block header -%}
+          {%- endblock %}
+          </div>
+
+          </div>
       {% endblock container %}
-    </div> <!--! end of #container -->
-    <footer>
-      Powered by <a href="http://ringce.com/hyde">hyde</a>.
-    </footer>
   {% endblock content%}
+
   {% block js %}
   <!-- Javascript at the bottom for fast page loading -->
   {% block jquery %}
@@ -83,7 +91,6 @@
 
   {% block scripts %}
   {% endblock scripts %}
-
 
   <!--[if lt IE 7 ]>
     <script src="js/libs/dd_belatedpng.js"></script>
