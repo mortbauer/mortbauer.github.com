@@ -65,8 +65,8 @@ publisher:
         path: ../
         url: git@github.com:mortbauer/mortbauer.github.com.git
 
-flattener:
-    items:
-        -
-            source: media/images
-            target: 'media/images'
+#flattener:
+    #items:
+        #-
+            #source: media/images
+            #target: 'media/images'

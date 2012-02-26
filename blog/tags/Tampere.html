@@ -56,7 +56,31 @@
     <time datetime="2012-01-29">
         Sun, 29 Jan 2012
     </time>
-    <a href="/blog/cafeteria.html">Restaurants at TUT</a>
+    <a href="/blog/tampere.html">Tampere</a>
+</div>
+        <ul class="tags">
+        <li>
+        <a class="small" href="/blog/tags/Finland.html">
+            Finland
+        </a>
+    </li>
+        <li>
+        <a class="small" href="/blog/tags/Tampere.html">
+            Tampere
+        </a>
+    </li>
+        <li>
+        <a class="small" href="/blog/tags/Erasmus.html">
+            Erasmus
+        </a>
+    </li>
+        </ul>
+    </li><div class="container">
+<li class="post clear">
+    <time datetime="2012-01-29">
+        Sun, 29 Jan 2012
+    </time>
+    <a href="/blog/cafeteria.html">Cafeteria</a>
 </div>
         <ul class="tags">
         <li>
@@ -123,8 +147,17 @@
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+  <script src="/media/js/libs/galleria/galleria-1.2.6.min.js"></script>
   
-    
+      <script>
+    Galleria.loadTheme("/media/js/libs/galleria/themes/classic/galleria.classic.min.js");
+    $("#gallery").galleria({
+                width: 500,
+                height: 500
+            });
+
+    </script>
+  
   <!--[if lt IE 7 ]>
     <script src="js/libs/dd_belatedpng.js"></script>
     <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>

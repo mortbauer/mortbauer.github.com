@@ -7,12 +7,52 @@
         <link href="/"/>
     
         
-    <updated>2012-02-06T21:51:23Z</updated>
+    <updated>2012-02-26T10:02:23Z</updated>
 
     <id>/blog/atom.xml/</id>
 
             <entry>
-            <title type="html">Restaurants at TUT</title>
+            <title type="html">Tampere</title>
+            <author><name>Martin Ortbauer</name></author>
+            <link href="/blog/tampere.html"/>
+            <updated>2012-01-29T21:25:24Z</updated>
+            <published>2012-01-29T21:25:24Z</published>
+            <id>/blog/tampere.html</id>
+                        <category   scheme="/blog/tags"
+                        term="Finland"
+                        label="Finland" />
+                        <category   scheme="/blog/tags"
+                        term="Tampere"
+                        label="Tampere" />
+                        <category   scheme="/blog/tags"
+                        term="Erasmus"
+                        label="Erasmus" />
+            
+            <content type="html">
+                                &lt;p&gt;Tampere is from my personal point of view really small city, infact it has in
+reference to Wikipedia a a few more inhabitants then the Austrian city Linz,
+which is the capital of my home region. However it is a really beautiful place
+to be. &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere.jpg&#34; /&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;For now just look on my few pictures, I&amp;#8217;m not in the mood to write&amp;nbsp;now.&lt;/p&gt;
+&lt;div id=&#34;gallery&#34;&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6869-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6878-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6883-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6875-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6871-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6882-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6886-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6870-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6872-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6874-kl-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere/DSCF6873-kl-kl.png&#34; /&gt;
+&lt;/div&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Cafeteria</title>
             <author><name>Martin Ortbauer</name></author>
             <link href="/blog/cafeteria.html"/>
             <updated>2012-01-29T21:25:24Z</updated>
@@ -43,16 +83,7 @@ isn&amp;#8217;t very objective to judge about good, or delicious food as it
 depends on one&amp;#8217;s flavour. You it isn&amp;#8217;t a very easy subject, but an
 important one, and as I also really like to eat, I will start my first
 blog about the food at the university, I hope a lot more will&amp;nbsp;follow.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6865-kl.png&#34; /&gt;&lt;br /&gt;
-&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6857-kl.png&#34; /&gt;&lt;br /&gt;
-&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6867-kl.png&#34; /&gt;&lt;br /&gt;
-&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6858-kl.png&#34; /&gt;&lt;br /&gt;
-&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6866-kl.png&#34; /&gt;&lt;br /&gt;
-&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6862-kl.png&#34; /&gt;&lt;br /&gt;
-&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6860-kl.png&#34; /&gt;&lt;br /&gt;
-&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6868.png&#34; /&gt;&lt;br /&gt;
-&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6863-kl.png&#34; /&gt;&lt;br /&gt;
-&lt;img alt=&#34;Food&#34; src=&#34;/media/images/DSCF6861-kl.png&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img alt=&#34;Food&#34; src=&#34;/media/images/food2.png&#34; /&gt;&lt;br /&gt;
 &lt;/p&gt;
 &lt;p&gt;Actually there is not only one good place to eat the Tampere University of
 Technology &lt;span class=&#34;caps&#34;&gt;TUT&lt;/span&gt;, no there are at least three, no four which should be mentioned.
@@ -62,8 +93,19 @@ depending on ones taste, very delicious food, from about 10.30 to 15.00 every
 weekday, and on Saturday one can still go to Ravintola Edison as it is the only
 one opened also on Saturdays.&lt;br /&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Food&#34; src=&#34;/media/images/food.png&#34; /&gt;&lt;br /&gt;
-&lt;/p&gt;
+&lt;div id=&#34;gallery&#34;&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6865-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6857-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6867-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6858-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6866-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6862-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6860-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6868.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6863-kl.png&#34; /&gt;
+    &lt;img alt=&#34;Food&#34; src=&#34;/media/images/food/DSCF6861-kl.png&#34; /&gt;
+&lt;/div&gt;
+
 &lt;p&gt;If you want more detailed information about prices, opening hours or dishes you should visit they website of &lt;a href=&#34;http://www.juvenes.fi/&#34;&gt;Juvenes&lt;/a&gt;, the owner of the&amp;nbsp;restaurants.&lt;/p&gt;            </content>
         </entry>
     </feed>

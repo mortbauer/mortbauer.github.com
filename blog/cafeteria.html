@@ -22,7 +22,7 @@
         compatibility mode is within the first 1K bytes
         code.google.com/p/chromium/issues/detail?id=23003 -->
 
-  <title>Restaurants at TUT</title>
+  <title>Cafeteria</title>
   <meta name="description" content="About the good restaurants at the University.
 ">
   <meta name="author" content="Martin Ortbauer">
@@ -52,9 +52,9 @@
           <article class="post">
 <nav class="post_nav">
 <a class="backlink" href="/blog">Back to list</a>
-<a class="prev disabled"
-    title=""
-    >
+<a class="prev"
+    title="Tampere"
+        href="/blog/tampere.html">
     Previous
 </a>
 
@@ -68,7 +68,7 @@
 </nav>
 <h1 class="title">
     <a href="/blog/cafeteria.html">
-        Restaurants at TUT
+        Cafeteria
     </a>
 </h1>
 <time datetime="2012-01-29">
@@ -110,16 +110,7 @@ isn't very objective to judge about good, or delicious food as it
 depends on one's flavour. You it isn't a very easy subject, but an
 important one, and as I also really like to eat, I will start my first
 blog about the food at the university, I hope a lot more will follow.</p>
-<p><img alt="Food" src="/media/images/DSCF6865-kl.png" /><br />
-<img alt="Food" src="/media/images/DSCF6857-kl.png" /><br />
-<img alt="Food" src="/media/images/DSCF6867-kl.png" /><br />
-<img alt="Food" src="/media/images/DSCF6858-kl.png" /><br />
-<img alt="Food" src="/media/images/DSCF6866-kl.png" /><br />
-<img alt="Food" src="/media/images/DSCF6862-kl.png" /><br />
-<img alt="Food" src="/media/images/DSCF6860-kl.png" /><br />
-<img alt="Food" src="/media/images/DSCF6868.png" /><br />
-<img alt="Food" src="/media/images/DSCF6863-kl.png" /><br />
-<img alt="Food" src="/media/images/DSCF6861-kl.png" /><br />
+<p><img alt="Food" src="/media/images/food2.png" /><br />
 </p>
 <p>Actually there is not only one good place to eat the Tampere University of
 Technology TUT, no there are at least three, no four which should be mentioned.
@@ -129,8 +120,19 @@ depending on ones taste, very delicious food, from about 10.30 to 15.00 every
 weekday, and on Saturday one can still go to Ravintola Edison as it is the only
 one opened also on Saturdays.<br />
 </p>
-<p><img alt="Food" src="/media/images/food.png" /><br />
-</p>
+<div id="gallery">
+    <img alt="Food" src="/media/images/food/DSCF6865-kl.png" />
+    <img alt="Food" src="/media/images/food/DSCF6857-kl.png" />
+    <img alt="Food" src="/media/images/food/DSCF6867-kl.png" />
+    <img alt="Food" src="/media/images/food/DSCF6858-kl.png" />
+    <img alt="Food" src="/media/images/food/DSCF6866-kl.png" />
+    <img alt="Food" src="/media/images/food/DSCF6862-kl.png" />
+    <img alt="Food" src="/media/images/food/DSCF6860-kl.png" />
+    <img alt="Food" src="/media/images/food/DSCF6868.png" />
+    <img alt="Food" src="/media/images/food/DSCF6863-kl.png" />
+    <img alt="Food" src="/media/images/food/DSCF6861-kl.png" />
+</div>
+
 <p>If you want more detailed information about prices, opening hours or dishes you should visit they website of <a href="http://www.juvenes.fi/">Juvenes</a>, the owner of the restaurants.</p></article>          <footer>
           this website is proudly powered by <a href="http://www.python.org/">Python</a>,
           build with the static site generator <a href="http://hyde.github.com/">Hyde</a>, 
@@ -167,8 +169,17 @@ one opened also on Saturdays.<br />
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+  <script src="/media/js/libs/galleria/galleria-1.2.6.min.js"></script>
   
-    
+      <script>
+    Galleria.loadTheme("/media/js/libs/galleria/themes/classic/galleria.classic.min.js");
+    $("#gallery").galleria({
+                width: 500,
+                height: 500
+            });
+
+    </script>
+  
   <!--[if lt IE 7 ]>
     <script src="js/libs/dd_belatedpng.js"></script>
     <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>

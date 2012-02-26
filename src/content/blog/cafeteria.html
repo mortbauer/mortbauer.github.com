@@ -1,5 +1,5 @@
 ---
-title: Restaurants at TUT
+title: Cafeteria
 description: >
     About the good restaurants at the University.
 created: !!timestamp '2012-01-29 21:25:24'
@@ -22,9 +22,10 @@ important one, and as I also really like to eat, I will start my first
 blog about the food at the university, I hope a lot more will follow.
 {% endmark %}
 
-{% for i in listdir("content/media/images/food/") %}
-![Food]( {{ i }} )  
-{% endfor %}
+{% mark image -%}
+![Food]([[!!images/food2.png]])  
+{%- endmark %}  
+
 
 Actually there is not only one good place to eat the Tampere University of
 Technology TUT, no there are at least three, no four which should be mentioned.
@@ -34,10 +35,11 @@ depending on ones taste, very delicious food, from about 10.30 to 15.00 every
 weekday, and on Saturday one can still go to Ravintola Edison as it is the only
 one opened also on Saturdays.  
 
-
-{% mark image -%}
-![Food]([[!!images/food.png]])  
-{%- endmark %}  
+<div id="gallery">
+{% for i in listimagedir("food/") %}
+    <img alt="Food" src="{{ i }}" />
+{% endfor %}
+</div>
 
 If you want more detailed information about prices, opening hours or dishes you should visit they website of [Juvenes][JUV], the owner of the restaurants.
 [JUV]: http://www.juvenes.fi/

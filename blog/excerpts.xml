@@ -7,12 +7,37 @@
         <link href="/"/>
     
         
-    <updated>2012-02-06T21:51:23Z</updated>
+    <updated>2012-02-26T10:02:23Z</updated>
 
     <id>/blog/excerpts.xml/</id>
 
             <entry>
-            <title type="html">Restaurants at TUT</title>
+            <title type="html">Tampere</title>
+            <author><name>Martin Ortbauer</name></author>
+            <link href="/blog/tampere.html"/>
+            <updated>2012-01-29T21:25:24Z</updated>
+            <published>2012-01-29T21:25:24Z</published>
+            <id>/blog/tampere.html</id>
+                        <category   scheme="/blog/tags"
+                        term="Finland"
+                        label="Finland" />
+                        <category   scheme="/blog/tags"
+                        term="Tampere"
+                        label="Tampere" />
+                        <category   scheme="/blog/tags"
+                        term="Erasmus"
+                        label="Erasmus" />
+            
+            <content type="html">
+                &lt;p&gt;&lt;img alt=&#34;Food&#34; src=&#34;/media/images/tampere.jpg&#34; /&gt;&lt;/p&gt;
+                &lt;p&gt;Tampere is from my personal point of view really small city, infact it has in
+reference to Wikipedia a a few more inhabitants then the Austrian city Linz,
+which is the capital of my home region. However it is a really beautiful place
+to be. &lt;br /&gt;
+&lt;/p&gt;            </content>
+        </entry>
+            <entry>
+            <title type="html">Cafeteria</title>
             <author><name>Martin Ortbauer</name></author>
             <link href="/blog/cafeteria.html"/>
             <updated>2012-01-29T21:25:24Z</updated>
@@ -35,7 +60,7 @@
                         label="Restaurant" />
             
             <content type="html">
-                &lt;p&gt;&lt;img alt=&#34;Food&#34; src=&#34;/media/images/food.png&#34; /&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;img alt=&#34;Food&#34; src=&#34;/media/images/food2.png&#34; /&gt;&lt;/p&gt;
                 &lt;p&gt;I hope you agree with me that eating, and therefore food and places
 where to eat are very important, but actually also the opportunities
 for good and affordable food differ a lot from country to country,
