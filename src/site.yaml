@@ -18,25 +18,6 @@ context:
         website_subtitle: a simple personal blog.
         tweet_via: ringce
         images: '/media/images'
-        menu:
-            -
-                name: Home
-                description: Home Page
-                css_class: home
-                type: page
-                url: index.html
-            -
-                name: Blog
-                description: Blog
-                css_class: blog
-                type: node
-                url: blog
-            -
-                name: About
-                description: About
-                css_class: about
-                type: page
-                url: about.html
 meta:
     nodemeta: meta.yaml
     created: !!timestamp 2012-01-29 08:51:33 
