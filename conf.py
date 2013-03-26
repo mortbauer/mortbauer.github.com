@@ -23,7 +23,7 @@ author = 'Martin Ortbauer'
 copyright = '2013, ' + author
 
 # Change this to your blog root URL (required for RSS feed)
-website = 'http://blog.mortbauer.bitbucket.org/blog/html/'
+website = 'http://blog.mortbauer.github.com/blog/html/'
 
 # **************************************************************
 # More tweaks you can do
