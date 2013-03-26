@@ -5,7 +5,7 @@ New Blog with Tinkerer
 
 .. author:: default
 .. categories:: programming, web
-.. tags:: python, blog, rst, pelican
+.. tags:: python, blog, rst, tinkerer
 .. comments::
 
 For a while now my blog is completely empty, for one reason that's because I
