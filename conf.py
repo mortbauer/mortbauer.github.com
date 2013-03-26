@@ -8,7 +8,7 @@ import tinkerer.paths
 # **************************************************************
 
 # Change this to the name of your blog
-project = 'Blog'
+project = 'Mortbauer\'s Blog'
 
 # Change this to the tagline of your blog
 tagline = 'New tinkerer powered static blog'
@@ -23,7 +23,7 @@ author = 'Martin Ortbauer'
 copyright = '2013, ' + author
 
 # Change this to your blog root URL (required for RSS feed)
-website = 'http://127.0.0.1/blog/html/'
+website = 'http://blog.mortbauer.bitbucket.org/blog/html/'
 
 # **************************************************************
 # More tweaks you can do
