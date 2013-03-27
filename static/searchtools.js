@@ -303,7 +303,7 @@ var Search = {
   },
 
   query : function(query) {
-    var stopwords = ["a","these","there","and","are","not","as","was","at","into","is","no","by","they","such","be","but","then","this","it","with","the","for","that","of","will","if","on","in","their","near","or","to"];
+    var stopwords = ["a","there","at","as","is","on","and","it","but","of","this","into","in","they","to","will","or","was","if","that","be","these","by","then","the","no","for","are","their","near","with","such","not"];
 
     // Stem the searchterms and add them to the correct list
     var stemmer = new Stemmer();
@@ -459,7 +459,7 @@ var Search = {
             displayNextItem();
           });
         } else if (DOCUMENTATION_OPTIONS.HAS_SOURCE) {
-          $.get(DOCUMENTATION_OPTIONS.URL_ROOT + '_sources/' +
+          $.get(DOCUMENTATION_OPTIONS.URL_ROOT + 'sources/' +
                 item[0] + '.txt', function(data) {
             if (data != '') {
               listItem.append($.makeSearchSummary(data, searchterms, hlterms));
