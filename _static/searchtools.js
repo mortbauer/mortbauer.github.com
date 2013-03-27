@@ -303,7 +303,7 @@ var Search = {
   },
 
   query : function(query) {
-    var stopwords = ["and","if","in","it","is","with","not","they","that","their","these","by","be","was","then","will","for","a","no","into","but","are","this","to","at","there","or","near","on","the","of","as","such"];
+    var stopwords = ["by","they","not","be","to","then","that","for","their","with","but","near","such","no","was","there","if","as","in","at","into","it","and","are","the","is","will","or","this","of","these","a","on"];
 
     // Stem the searchterms and add them to the correct list
     var stemmer = new Stemmer();
