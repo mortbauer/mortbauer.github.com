@@ -1,6 +1,0 @@
-===
-title: A simple personal blog feed.
-extends: atom.j2
-excerpts_only: true
-listable: false
-===
