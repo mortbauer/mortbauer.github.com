@@ -1,1 +1,2 @@
-exclude: ['2013', '_sources', '.git', 'archive.html', 'categories', '.buildinfo', 'index.html', 'searchindex.js', 'rss.html', 'search.html', 'master.html', 'pages', 'tags', '_static', 'objects.inv']
+#exclude: ['2013', '_sources', '.git', 'archive.html', 'categories', '.buildinfo', 'searchindex.js', 'rss.html', 'search.html', 'master.html', 'pages', 'tags', '_static', 'objects.inv']
+include: ['_static','_sources']
