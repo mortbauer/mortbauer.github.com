@@ -1,0 +1,13 @@
+aluminium
+==========
+If you haven't seen that yet, then watch it now, here is a link_ to a (german
+speaking) youtube video. The film is about the harmful side of aluminium on the
+human organism, in should be seen by everybody since it affects YOU as well.
+Watch it!
+
+.. _link: http://youtu.be/60Szi5yjLRk
+
+.. author:: default
+.. categories:: health
+.. tags:: health, aluminium, alzheimer
+.. comments:: 
