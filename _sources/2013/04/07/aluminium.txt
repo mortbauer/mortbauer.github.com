@@ -1,5 +1,9 @@
 aluminium
 ==========
+
+.. image:: aluminium_can.jpg
+    :width: 20%
+
 If you haven't seen that yet, then watch it now, here is a link_ to the video,
 you can watch the trailer for free, and rent the whole movie for three euros,
 it is worth the small amount of money totally. The film is about the harmful
@@ -11,6 +15,7 @@ the end it is your health if you don't give a shit about it is your problem
 since I'm not giving a shit about your health ;) .
 
 Watch it!
+
 
 .. _link: http://muvi.es/w3319
 
